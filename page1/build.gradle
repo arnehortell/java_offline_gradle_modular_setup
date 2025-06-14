@@ -1,0 +1,11 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'com.example.page1.Page1'
+}
+
+dependencies {
+    implementation files('../text/build/libs/text-1.0.0.jar')
+}
